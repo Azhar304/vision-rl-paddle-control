@@ -1,4 +1,4 @@
-from env.paddle_env import PaddleEnv
+from environment.paddle_env import PaddleEnv
 from rl.q_learning import QLearningAgent
 import matplotlib.pyplot as plt
 import numpy as np
