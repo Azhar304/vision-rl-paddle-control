@@ -22,8 +22,7 @@ git clone https://github.com/Azhar304/vision-rl-paddle-control.git
 cd vision-rl-paddle-control/src
 Create a virtual environment (recommended):
 
-bash
-Copy code
+
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
@@ -31,13 +30,11 @@ source venv/bin/activate
 venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Usage
 Train the Agent
-bash
-Copy code
+
 python main_train.py
 Trains the agent over multiple episodes.
 
@@ -46,7 +43,6 @@ Live visualization of paddle and ball.
 Total reward and current reward displayed on the screen.
 
 Evaluate the Agent
-bash
-Copy code
+
 python main_eval.py
 Runs the trained agent in the environment.
