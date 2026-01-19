@@ -1,0 +1,28 @@
+
+assets/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+
+
+# VSCode / IDE files
+.vscode/
+*.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OpenCV / temp files
+*.avi
+*.mp4
+*.mov
+*.mkv
